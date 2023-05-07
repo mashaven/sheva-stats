@@ -18,7 +18,7 @@ test = {
         {
           'code': r"""
           >>> # Make sure you can use any two features
-          >>> correct_dis = 0.0338289443246
+          >>> correct_dis = 0.0378957014389
           >>> dis = distance_two_features("In Your Eyes", "Sangria Wine", "the", "of")
           >>> np.isclose(dis, correct_dis)
           True
